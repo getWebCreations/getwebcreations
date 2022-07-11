@@ -29,10 +29,17 @@ module.exports = {
 			}
 		]
 	},
-	plugins: [new HtmlWebpackPlugin({
-		filename: 'index.html',
-		title: 'getWebCreations',
-		template: path.resolve(__dirname, 'src/index.html'),
-	})]
+	plugins: [
+		new HtmlWebpackPlugin({
+			filename: 'index.html',
+			title: 'getWebCreations - Home',
+			template: path.resolve(__dirname, 'src/index.html'),
+		}),
+		new HtmlWebpackPlugin({
+			filename: 'dashboard.html',
+			title: 'getWebCreations - Dashboard',
+			template: path.resolve(__dirname, 'src/views/dashboard.html')
+		})
+]
 
 }
