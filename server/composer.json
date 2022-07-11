@@ -1,0 +1,18 @@
+{
+    "name": "imsamaritan/server",
+    "description": "A web application for workers attendance at work place",
+    "type": "project",
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "getwebcreations\\server\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "imsamaritan",
+            "email": "aicodemate.talk@gmail.com"
+        }
+    ],
+    "require": {}
+}
